@@ -5,6 +5,7 @@ This python file has helper methods that will help throughout the machine learni
 from sklearn.preprocessing import LabelEncoder
 from sklearn.model_selection import KFold, StratifiedKFold, cross_val_score
 from sklearn.metrics import classification_report, confusion_matrix, accuracy_score, f1_score, explained_variance_score
+import seaborn as sns
 
 """
 reset scores for model performance tests for different X_train variations
@@ -96,3 +97,19 @@ def encode_strings(df):
   for column in df.select_dtypes(include=['object']).columns:
     le = LabelEncoder()
     df[column] = le.fit_transform(df[column])
+
+
+"""
+helper function to print confusion matrix and heat map
+"""
+def print_confusion_matrix_details(y_true, y_pred):
+  conf_matrix = confusion_matrix(y_true=y_true, y_pred=y_pred)
+
+  # print the confusion matrix
+  print(f"confusion matrix:\n {conf_matrix}\n")
+
+  # graph confusion matrix heatmap
+  sns.heatmap(conf_matrix, annot=True)
+
+  # print classification report for further details
+  print(classification_report(y_true=y_true, y_pred=y_pred))
