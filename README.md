@@ -48,7 +48,7 @@ Refine and tune predictive models to focus on this feature, along with others th
 - Real-Time Application: Integrate the Random Forest model into real-time asteroid tracking systems and other decision-making pipelines to classify and prioritize asteroids dynamically.
 
 ## For More Information
-See the full analysis in the Jupyter Notebook or review this presentation
+See the full analysis in the [Jupyter Notebook](https://github.com/anbitasiregar/nasa-asteroid-analysis/tree/main/notebooks) or review the [presentation](https://github.com/anbitasiregar/nasa-asteroid-analysis/blob/main/presentations/Asteroid%20Classification%20Analysis%20Presentation.pdf)
 
 Original data source: https://www.kaggle.com/datasets/lovishbansal123/nasa-asteroids-classification/data
 
