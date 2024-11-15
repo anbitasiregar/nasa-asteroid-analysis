@@ -41,7 +41,7 @@ Enhance monitoring systems for asteroids that come within a defined distance of 
 ### Recommendation #3:
 Refine and tune predictive models to focus on this feature, along with others that show high predictive power like absolute magnitude and asteroid diameter. This focus can improve classification accuracy and reduce false negatives, ensuring that potentially hazardous asteroids are accurately flagged, minimizing the risk of missing critical threats.
 
-### Next Steps
+## Next Steps
 - Further Research: Explore additional asteroid features or collect new data to improve model predictions and understand asteroid behavior.
 - Collaboration and Fundraising: Use this analysis to pitch for funding and secure partnerships with government agencies, private organizations, and international space programs to pool resources for planetary defense.
 - Public Awareness Campaigns: Educate the public about asteroid risks and mitigation efforts. One idea is to develop an open-source tool for others to explore asteroid data and contribute to the field.
